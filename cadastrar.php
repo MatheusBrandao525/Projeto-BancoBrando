@@ -15,37 +15,37 @@
 		<nav class="menu padtop">
 			<ul>
 				<li class="lista-logo">
-					<a href="#"><i class="fa fa-angellist"></i><span class="span-menu">Logo</span></a>
+					<a href="sobre.php"><i class="fa fa-angellist"></i><span class="span-menu">Logo</span></a>
 				</li>
 
                 <li class="lista minipad">
-					<a href="#"><i class="fa fa-home"></i><span class="span-menu">Home</span></a>
+					<a href="index.php"><i class="fa fa-home"></i><span class="span-menu">Home</span></a>
 				</li>
                 <li class="lista minipad">
-					<a href="#"><i class="fa fa-bar-chart"></i><span class="span-menu">Nossos beneficios</span></a>
+					<a href="beneficio.php"><i class="fa fa-handshake-o"></i><span class="span-menu">Nossos beneficios</span></a>
 				</li>
 				<li class="minipad">
-					<a href="#"><i class="fa fa-commenting"></i><span class="span-menu">Comentários</span></a>
+					<a href="comentario.php"><i class="fa fa-commenting"></i><span class="span-menu">Comentários</span></a>
 				</li>
 				<li class="lista minipad">
-					<a href="#"><i class="fa fa-scribd"></i><span class="span-menu">Nossos serviços</span></a>
+					<a href="servicos.php"><i class="fa fa-scribd"></i><span class="span-menu">Nossos serviços</span></a>
 				</li>
 				<li class="lista minipad">
-					<a href="#"><i class="fa fa-connectdevelop"></i><span class="span-menu">Desenvolvimento</span></a>
+					<a href="develop.php"><i class="fa fa-connectdevelop"></i><span class="span-menu">Desenvolvimento</span></a>
 				</li>
 				<li class="lista minipad">
-					<a href="#"><i class="fa fa-industry"></i><span class="span-menu">Indústria</span></a>
+					<a href="empresa.php"><i class="fa fa-industry"></i><span class="span-menu">Empresas</span></a>
 				</li>
 				<li class="bordertop">
-					<a href="#"><i class="fa fa-envelope"></i><span class="span-menu">Contato</span></a>
+					<a href="contato.php"><i class="fa fa-envelope"></i><span class="span-menu">Contato</span></a>
 				</li>
 				<li>
-					<a href="#"><i class="fa fa-question-circle"></i><span class="span-menu">Ajuda</span></a>
+					<a href="ajuda.php"><i class="fa fa-question-circle"></i><span class="span-menu">Ajuda</span></a>
 				</li>
                 <div class="centro padtop">
-                    <a href="" class="linkbool"><div class="bool"></div></a>
-                    <a href="" class="linkbool"><div class="bool"></div></a>
-                    <a href="" class="linkbool"><div class="bool"></div></a>
+                    <a href="" class="linkbool"><div class="bool centro"><i class="fa fa-facebook-square icon" aria-hidden="true"></i></div></a>
+                    <a href="" class="linkbool"><div class="bool centro"><i class="fa fa-linkedin-square icon" aria-hidden="true"></i></div></a>
+                    <a href="" class="linkbool"><div class="bool centro"><i class="fa fa-instagram icon" aria-hidden="true"></i></div></a>
                 </div>
 			</ul>
 		</nav>
@@ -53,7 +53,8 @@
 
             <section class="cadastro w100 centro  centrogrid">
                 <div class="inicio w100">
-                    <h3 class="titulo">Solicite já, sua conta no Banco Brandao!</h3>
+                    <h3 class="titulo">Solicite já sua conta no Banco Brandao!</h3>
+					
                 </div>
                     <form action="" method="post" class="formcadastro centrogrid">
                         <label class="padtop" for="">Nome completo</label>
@@ -82,7 +83,20 @@
                         
                         <label class="padtop" for="">Endereço</label>
                         <input type="text" required>
-
+					<div class="centro">
+						<div class="centrogrid marge selectconta">
+							<label class="padtop" for="">C.corrente</label>
+							<div class="centro">
+								<input class="caixa" type="checkbox">
+							</div>
+						</div>
+						<div class="centrogrid marge selectconta">
+							<label class="padtop" for="">C.poupança</label>
+							<div class="centro">
+								<input class="caixa" type="checkbox">
+							</div>
+						</div>
+					</div>
                         <button type="submit" class="entrar magtop">Solicitar conta</button>
                     </form>
                 <div class="links">

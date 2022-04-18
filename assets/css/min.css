@@ -114,6 +114,10 @@ body, html{
         margin-top: 0.50rem;
     }
 
+    .marge{
+        margin: 0 4%;
+    }
+
     .linkbool{
         margin: 0 4%;
     }
@@ -123,6 +127,13 @@ body, html{
         height: 30px;
         border-radius: 50%;
         background-color: aliceblue;
+        color:#212F45;
+        background-size: cover;
+    }
+
+    .icon{
+        width: 30px;
+        height: 30px;
     }
 
     .bordertop{
@@ -331,4 +342,15 @@ nav.menu>ul>a:hover{
         height: 100%;
         background-color: #065A60;
 
+    }
+
+    .selectconta{
+        height: 100px;
+        color: #adb5bd;
+        font-size: 1.30rem;
+    }
+
+    .caixa{
+        width: 40px;
+        height: 40px;
     }

@@ -16,37 +16,37 @@
 <nav class="menu padtop">
 			<ul>
 				<li class="lista-logo">
-					<a href="#"><i class="fa fa-angellist"></i><span class="span-menu">Logo</span></a>
+					<a href="sabre.php"><i class="fa fa-angellist"></i><span class="span-menu">Logo</span></a>
 				</li>
 
                 <li class="lista minipad">
-					<a href="#"><i class="fa fa-home"></i><span class="span-menu">Home</span></a>
+					<a href="index.php"><i class="fa fa-home"></i><span class="span-menu">Home</span></a>
 				</li>
                 <li class="lista minipad">
-					<a href="#"><i class="fa fa-bar-chart"></i><span class="span-menu">Nossos beneficios</span></a>
+					<a href="baneficio.php"><i class="fa fa-bar-chart"></i><span class="span-menu">Nossos beneficios</span></a>
 				</li>
 				<li class="minipad">
-					<a href="#"><i class="fa fa-commenting"></i><span class="span-menu">Comentários</span></a>
+					<a href="comentario.php"><i class="fa fa-commenting"></i><span class="span-menu">Comentários</span></a>
 				</li>
 				<li class="lista minipad">
-					<a href="#"><i class="fa fa-scribd"></i><span class="span-menu">Nossos serviços</span></a>
+					<a href="servicos.php"><i class="fa fa-scribd"></i><span class="span-menu">Nossos serviços</span></a>
 				</li>
 				<li class="lista minipad">
-					<a href="#"><i class="fa fa-connectdevelop"></i><span class="span-menu">Desenvolvimento</span></a>
+					<a href="develop.php"><i class="fa fa-connectdevelop"></i><span class="span-menu">Desenvolvimento</span></a>
 				</li>
 				<li class="lista minipad">
-					<a href="#"><i class="fa fa-industry"></i><span class="span-menu">Indústria</span></a>
+					<a href="empresa.php"><i class="fa fa-industry"></i><span class="span-menu">Empresas</span></a>
 				</li>
 				<li class="bordertop">
-					<a href="#"><i class="fa fa-envelope"></i><span class="span-menu">Contato</span></a>
+					<a href="contato.php"><i class="fa fa-envelope"></i><span class="span-menu">Contato</span></a>
 				</li>
 				<li>
-					<a href="#"><i class="fa fa-question-circle"></i><span class="span-menu">Ajuda</span></a>
+					<a href="ajuda.php"><i class="fa fa-question-circle"></i><span class="span-menu">Ajuda</span></a>
 				</li>
                 <div class="centro padtop">
-                    <a href="" class="linkbool"><div class="bool"></div></a>
-                    <a href="" class="linkbool"><div class="bool"></div></a>
-                    <a href="" class="linkbool"><div class="bool"></div></a>
+				<a href="" class="linkbool"><div class="bool centro"><i class="fa fa-facebook-square icon" aria-hidden="true"></i></div></a>
+                    <a href="" class="linkbool"><div class="bool centro"><i class="fa fa-linkedin-square icon" aria-hidden="true"></i></div></a>
+                    <a href="" class="linkbool"><div class="bool centro"><i class="fa fa-instagram icon" aria-hidden="true"></i></div></a>
                 </div>
 			</ul>
 		</nav>
