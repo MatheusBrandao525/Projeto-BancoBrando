@@ -4,6 +4,9 @@
 <meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
 	<!--link da font awesome-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!--link do estilo css-->
@@ -12,12 +15,12 @@
 </head>
 <body class="paginicial">
 
-<div class="w100 centro">
-<nav class="menu padtop">
-			<ul>
-				<li class="lista-logo">
-					<a href="sabre.php"><i class="fa fa-angellist"></i><span class="span-menu">Logo</span></a>
-				</li>
+<div class="w100 dispFlex">
+<div class="menulateral centrogrid">
+			<div class="logoDash">
+				<h1>logo</h1>
+			</div>
+			<ul class="ulmenu">
 
                 <li class="lista minipad">
 					<a href="index.php"><i class="fa fa-home"></i><span class="span-menu">Home</span></a>
@@ -43,15 +46,16 @@
 				<li>
 					<a href="ajuda.php"><i class="fa fa-question-circle"></i><span class="span-menu">Ajuda</span></a>
 				</li>
-                <div class="centro padtop">
+
+				<div class="centro redes">
 				<a href="" class="linkbool"><div class="bool centro"><i class="fa fa-facebook-square icon" aria-hidden="true"></i></div></a>
                     <a href="" class="linkbool"><div class="bool centro"><i class="fa fa-linkedin-square icon" aria-hidden="true"></i></div></a>
                     <a href="" class="linkbool"><div class="bool centro"><i class="fa fa-instagram icon" aria-hidden="true"></i></div></a>
                 </div>
 			</ul>
-		</nav>
+		</div>
 
-		<div class="home">
+		<div class="home w80">
             <section class="cadastro w100 centrogrid">
             <div class="inicio w100">
                 <h3 class="titulo">Bem-vindo ao Banco Brandao!</h3>

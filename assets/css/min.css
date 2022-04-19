@@ -69,6 +69,10 @@ body, html{
         height: 100%;
     }
 
+    .redes{
+        padding-top: 0 !important;
+    }
+
     .titulo{
         font-size: 2rem;
         color:#adb5bd;
@@ -110,8 +114,15 @@ body, html{
         padding-bottom: 4rem;
     }
 
+    .magbottom{
+        margin-bottom: 2rem;
+    }
+
     .magtop{
         margin-top: 0.50rem;
+    }
+    .magtop2{
+        margin-top: 2rem;
     }
 
     .marge{
@@ -132,8 +143,10 @@ body, html{
     }
 
     .icon{
-        width: 30px;
-        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.50rem;
     }
 
     .bordertop{
@@ -145,9 +158,23 @@ body, html{
 */
 
 .paginicial{
-    background-color: #212F45;
+    background-color: #065A60;
     color: #adb5bd;
     height: 100vh;
+}
+
+.paginicialCad{
+    height: 100%;
+    color: #adb5bd;
+    background-color: #065A60;
+}
+
+.cadicon{
+    position: relative;
+}
+
+.ulmenu>li>a>{
+    font-size: 1rem !important;
 }
 
 nav.menu{
@@ -275,7 +302,7 @@ nav.menu>ul>a:hover{
         width: 255px;
         color: #8a8a8a;
         display: table;
-        font-size: 1.3rem;
+        font-size: 1rem;
         font-weight: 600;
         text-decoration: none;
         -webkit-transform: translateZ(0) scale(1,1);
@@ -326,7 +353,6 @@ nav.menu>ul>a:hover{
         box-shadow: 0 0 10px #282828;
     }
     .fa{
-        position: relative;
         width: 60px;
         height: 40px;
         text-align: center;
@@ -338,9 +364,11 @@ nav.menu>ul>a:hover{
         overflow: hidden;
     }*/
     .home{
-        width: 100%;
+        position: absolute;
+        right: 1.4%;
+        width: 80%;
         height: 100%;
-        background-color: #065A60;
+
 
     }
 
@@ -354,3 +382,120 @@ nav.menu>ul>a:hover{
         width: 40px;
         height: 40px;
     }
+
+.dashboard{
+    background-color: #065A60;
+    width: 100%;
+    height: 100%;
+    padding: 2% 2%;
+}
+
+.pai{
+    padding-top: 4rem;
+    display: block;
+    width: 80%;
+    background-color: #065A60;
+}
+
+.cards{
+    width: 100%;
+    justify-content: space-around;
+}
+
+.card{
+    border-radius: 5px;
+    font-size: 1.20rem;
+    font-weight: 600;
+    margin-top: 2%;
+    width: 200px;
+    height: 100px;
+    background-color: #212F45;
+    box-shadow: 0.125em 0.175em 0 0 rgba(0, 0, 0, 0.125);
+    color: #8a8a8a;
+}
+
+.card:hover{
+    background-color: rgb(203, 203, 203);
+    color: #212F45; 
+}
+
+.menulateral{
+    justify-content: left !important;
+    width: 20%;
+    height: 100vh;
+    background-color: #212F45;
+}
+
+.menulateral ul>li{
+    list-style: none;
+}
+
+.cadicon{
+    top: 0 !important;
+}
+
+.menulateral ul>li>a{
+    align-items: center;
+    color: #8a8a8a;
+    display: table;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    -webkit-transform: translateZ(0) scale(1,1);
+    transform: translateZ(0) scale(1,1);
+    -webkit-transition: all 0.15s linear;
+    transition: all 0.15s linear;
+}
+
+.dadosProfile{
+    padding-left: 2rem;
+    width: 100%;
+    height: 150px;
+    background-color: #8a8a8a;
+}
+
+.logoDash{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    margin-top: 10px;
+    margin-left: 1rem;
+    width: 200px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: #8a8a8a;
+}
+
+.imgperfil{
+    text-align: left;
+    margin-top: 2%;
+    margin-right: 2%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+ 
+}
+
+.imgperfil i{
+    color: #212F45;
+    margin-left: 2px;
+    font-size: 5rem;
+}
+
+.dados{
+    margin-top: 2%;
+}
+.dadosSaldo{
+    margin-top: 2rem;
+}
+
+.saldo{
+    margin-right: 10px;
+}
+
+.ulmenu{
+    padding-left: 0 !important;
+    margin-top: 15px;
+}
