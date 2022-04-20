@@ -100,6 +100,10 @@
 							<p>Existem muitas variações disponíveis de passagens de Lorem Ipsum, mas a maioria sofreu algum tipo de alteração, seja por inserção de passagens com humor, ou palavras aleatórias que não parecem nem um pouco convincentes. Se você pretende usar uma passagem de Lorem Ipsum, precisa ter certeza de que não há algo embaraçoso escrito escondido no meio do texto. Todos os geradores de Lorem Ipsum na internet tendem a repetir pedaços predefinidos conforme necessário, fazendo deste o primeiro gerador de Lorem Ipsum autêntico da internet.</p>
 						</div>		
 
+						<div class="botaoVamos">
+							<h4 class="tituloSolicite">Gostou? então o que está esperando? solicite já sua conta!</h4>
+							<a href="cadastrar.php" class="tituloSolicite"><button class="solicite">Solicitar Conta</button></a>
+						</div>
 					</div>
 
             </section>
