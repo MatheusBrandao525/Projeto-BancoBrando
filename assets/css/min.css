@@ -430,10 +430,6 @@ nav.menu>ul>a:hover{
     list-style: none;
 }
 
-.cadicon{
-    top: 0 !important;
-}
-
 .menulateral ul>li>a{
     align-items: center;
     color: #8a8a8a;
@@ -498,4 +494,55 @@ nav.menu>ul>a:hover{
 .ulmenu{
     padding-left: 0 !important;
     margin-top: 15px;
+}
+
+
+.beneficios{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-content: left;
+    padding-left: 2rem;
+    margin-top: 2rem;
+}
+
+.tituloDash{
+    display: flex;
+    justify-content: center;
+}
+
+.btnvoltar{
+    width: 100%;
+}
+
+.volta{
+    width: 250px;
+    height: 40px;
+    background-color: #212F45 ;
+}
+
+.beneficio{
+    display: block !important;
+    height: 100%;
+}
+
+.inicioB{
+    height: 50px;
+}
+
+.homeBeneficio{
+    height: 100%;
+}
+
+.beneficioP{
+    box-shadow: 0.125em 0.175em 0 0 rgba(0, 0, 0, 0.125);
+    text-align: justify;
+    margin-bottom: 1rem;
+    padding-bottom: 4rem;
+    padding-right: 1rem;
+}
+
+.titulobeneficio{
+    color: white;
+
 }

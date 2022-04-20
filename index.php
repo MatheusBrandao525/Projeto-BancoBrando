@@ -26,7 +26,7 @@
 					<a href="index.php"><i class="fa fa-home"></i><span class="span-menu">Home</span></a>
 				</li>
                 <li class="lista minipad">
-					<a href="baneficio.php"><i class="fa fa-bar-chart"></i><span class="span-menu">Nossos beneficios</span></a>
+					<a href="beneficio.php"><i class="fa fa-bar-chart"></i><span class="span-menu">Nossos beneficios</span></a>
 				</li>
 				<li class="minipad">
 					<a href="comentario.php"><i class="fa fa-commenting"></i><span class="span-menu">Comentários</span></a>
@@ -67,7 +67,7 @@
                     <input type="password" required>
                     <button type="submit" class="entrar">Entrar</button>
                 </form>
-                <div class="links bordertop">
+                <div class="links centrogrid bordertop">
                     <h4 class="padtop">Ainda não tem uma conta?</h4>
                     <a href="cadastrar.php" class="formcadastro centro magtop"><Button class="entrar">Criar uma conta</Button></a>
                 </div>

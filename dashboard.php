@@ -25,25 +25,25 @@
 					<a href="index.php"><i class="fa fa-home cadicon"></i><span class="span-menu">Home</span></a>
 				</li>
                 <li class="lista minipad">
-					<a href="beneficio.php"><i class="fa fa-handshake-o cadicon"></i><span class="span-menu">Nossos beneficios</span></a>
+					<a href="beneficio.php"><i class="fa fa-handshake-o cadiconD"></i><span class="span-menu">Nossos beneficios</span></a>
 				</li>
 				<li class="minipad">
-					<a href="comentario.php"><i class="fa fa-commenting cadicon"></i><span class="span-menu">Comentários</span></a>
+					<a href="comentario.php"><i class="fa fa-commenting cadiconD"></i><span class="span-menu">Comentários</span></a>
 				</li>
 				<li class="lista minipad">
-					<a href="servicos.php"><i class="fa fa-scribd cadicon"></i><span class="span-menu">Nossos serviços</span></a>
+					<a href="servicos.php"><i class="fa fa-scribd cadiconD"></i><span class="span-menu">Nossos serviços</span></a>
 				</li>
 				<li class="lista minipad">
-					<a href="develop.php"><i class="fa fa-connectdevelop cadicon"></i><span class="span-menu">Desenvolvimento</span></a>
+					<a href="develop.php"><i class="fa fa-connectdevelop cadiconD"></i><span class="span-menu">Desenvolvimento</span></a>
 				</li>
 				<li class="lista minipad">
-					<a href="empresa.php"><i class="fa fa-industry cadicon"></i><span class="span-menu">Empresas</span></a>
+					<a href="empresa.php"><i class="fa fa-industry cadiconD"></i><span class="span-menu">Empresas</span></a>
 				</li>
 				<li class="bordertop">
-					<a href="contato.php"><i class="fa fa-envelope cadicon"></i><span class="span-menu">Contato</span></a>
+					<a href="contato.php"><i class="fa fa-envelope cadiconD"></i><span class="span-menu">Contato</span></a>
 				</li>
 				<li>
-					<a href="ajuda.php"><i class="fa fa-question-circle cadicon"></i><span class="span-menu">Ajuda</span></a>
+					<a href="ajuda.php"><i class="fa fa-question-circle cadiconD"></i><span class="span-menu">Ajuda</span></a>
 				</li>
                 <div class="centro padtop">
                     <a href="" class="linkbool"><div class="bool centro"><i class="fa fa-facebook-square icon" aria-hidden="true"></i></div></a>

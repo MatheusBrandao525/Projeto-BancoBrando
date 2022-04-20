@@ -100,7 +100,7 @@
 							</div>
 						</div>
 					</div>
-                        <button type="submit" class="entrar magtop">Solicitar conta</button>
+                        <button type="submit" class="entrar magtop2">Solicitar conta</button>
                     </form>
                 <div class="links">
                     <a href="index.php" class="formcadastro magtop magbottom centro entrar"><Button class="entrar">Voltar</Button></a>
