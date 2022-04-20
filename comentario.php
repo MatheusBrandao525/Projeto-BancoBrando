@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!--link do estilo css-->
 	<link rel="stylesheet" href="assets/css/min.css">
-	<title>Benefícios</title>
+	<title>Comentários</title>
 </head>
 <body class="paginicialCad padbottom">
 	<div class="container">
