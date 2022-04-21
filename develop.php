@@ -55,7 +55,7 @@
 			</ul>
 		</div>
 
-		<div class="home centro w80">
+		<div class="home centrogrid w80">
             <div class="inicioB centrogrid w100">
 
                 <div class="develoP magbottom centro">
@@ -63,6 +63,13 @@
                 </div>
                 <h3 class="magtop">O Banco Brandao também presta suporte a desenvolvedores</h3>   
             </div>
+
+			<div class="centrogrid">
+				<div class="w100 centrogrid develoPtxt magtop">
+					<h4 class="magtop">APIs para facilitar seus projetos!</h4>
+					<p class="magtop">Existem muitas variações disponíveis de passagens de Lorem Ipsum, mas a maioria sofreu algum tipo de alteração, seja por inserção de passagens com humor, ou palavras aleatórias</p>
+				</div>
+			</div>
         </div>
 </div>
 

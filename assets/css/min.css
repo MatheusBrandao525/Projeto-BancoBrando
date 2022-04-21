@@ -733,3 +733,17 @@ nav.menu>ul>a:hover{
     height: 40px;
     font-size: 4rem;
 }
+
+.develoPtxt{
+    text-align: left;
+}
+
+.develoPtxt h4{
+    width: 500px;
+    padding-left: 2rem;
+}
+
+.develoPtxt p{
+    width: 900px;
+    padding-left: 2rem;
+}
