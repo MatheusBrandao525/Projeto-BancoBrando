@@ -726,3 +726,10 @@ nav.menu>ul>a:hover{
     font-size: 1.20rem;
     width: 800px;
 }
+
+.develoP{
+    width: 100%;
+    color: #212F45;
+    height: 40px;
+    font-size: 4rem;
+}
