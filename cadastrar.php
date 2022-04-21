@@ -15,7 +15,7 @@
 </head>
 <body class="paginicialCad padbottom">
 	<div class="container">
-		<nav class="menu centrogrid">
+		<nav class="menu w20 centrogrid">
 				<div class="logoDash">
 					<h1>logo</h1>
 				</div>	
@@ -54,56 +54,60 @@
 		</nav>
 		<div class="home padtop2 magbottom">
 
-            <section class="cadastro w100 centro  centrogrid">
+            <section class="cadastro w100 centrogrid">
                 <div class="inicio w100">
                     <h3 class="titulo">Solicite já sua conta no Banco Brandao!</h3>
 					
                 </div>
-                    <form action="" method="post" class="formcadastro centrogrid">
-                        <label class="padtop" for="">Nome completo</label>
-                        <input type="text" required>
+					<div class="formcentro">
+						<form action="" method="post" class="centrogrid">
 
-                        <label class="padtop" for="">E-mail</label>
-                        <input type="email" required>
+							<label class="padtop" for="">Nome completo</label>
+							<input type="text" required>
 
-                        <label class="padtop" for="">Criar senha</label>
-                        <input type="password" required>
+							<label class="padtop" for="">E-mail</label>
+							<input type="email" required>
 
-                        <label class="padtop" for="">Confirmar senha</label>
-                        <input type="password" required>
+							<label class="padtop" for="">Criar senha</label>
+							<input type="password" required>
 
-                        <label class="padtop" for="">Data de nascimento</label>
-                        <input type="text" required>
+							<label class="padtop" for="">Confirmar senha</label>
+							<input type="password" required>
 
-                        <label class="padtop" for="">Telefone</label>
-                        <input type="text" required>
+							<label class="padtop" for="">Data de nascimento</label>
+							<input type="text" required>
 
-                        <label class="padtop" for="">Renda mensal</label>
-                        <input type="number" required>
+							<label class="padtop" for="">Telefone</label>
+							<input type="text" required>
 
-                        <label class="padtop" for="">CEP</label>
-                        <input type="text" required>
-                        
-                        <label class="padtop" for="">Endereço</label>
-                        <input type="text" required>
-					<div class="centro">
-						<div class="centrogrid marge selectconta">
-							<label class="padtop" for="">C.corrente</label>
-							<div class="centro">
-								<input class="caixa" type="checkbox">
+							<label class="padtop" for="">Renda mensal</label>
+							<input type="number" required>
+
+							<label class="padtop" for="">CEP</label>
+							<input type="text" required>
+							
+							<label class="padtop" for="">Endereço</label>
+							<input type="text" required>
+						<div class="centro">
+							<div class="centrogrid marge selectconta">
+								<label class="padtop" for="">C.corrente</label>
+								<div class="centro">
+									<input class="caixa" type="checkbox">
+								</div>
+							</div>
+							<div class="centrogrid marge selectconta">
+								<label class="padtop" for="">C.poupança</label>
+								<div class="centro">
+									<input class="caixa" type="checkbox">
+								</div>
 							</div>
 						</div>
-						<div class="centrogrid marge selectconta">
-							<label class="padtop" for="">C.poupança</label>
-							<div class="centro">
-								<input class="caixa" type="checkbox">
-							</div>
-						</div>
+							<button type="submit" class="solicitarConta magtop2">Solicitar conta</button>
+
+						</form>
 					</div>
-                        <button type="submit" class="entrar magtop2">Solicitar conta</button>
-                    </form>
                 <div class="links">
-                    <a href="index.php" class="formcadastro magtop magbottom centro entrar"><Button class="entrar">Voltar</Button></a>
+                    <a href="index.php" class="magtop magbottom centro"><Button class="volta">Voltar</Button></a>
                 </div>
             </section>
 

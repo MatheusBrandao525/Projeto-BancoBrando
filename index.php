@@ -55,21 +55,21 @@
 			</ul>
 		</div>
 
-		<div class="home w80">
-            <section class="cadastro w100 centrogrid">
-            <div class="inicio w100">
+		<div class="home centro w80">
+            <section class="cadastro cadstyle w100 centrogrid">
+            <div class="inicio centro w100">
                 <h3 class="titulo">Bem-vindo ao Banco Brandao!</h3>
             </div>
-                <form action="" method="post" class="formcadastro centrogrid">
+                <form action="" method="post" class="formlogin w100 formstyle centrogrid">
                     <label for="">E-mail</label>
                     <input type="email" required>
                     <label for="">Senha</label>
                     <input type="password" required>
-                    <button type="submit" class="entrar">Entrar</button>
+                    <button type="submit" class="formlogin entrar">Entrar</button>
                 </form>
                 <div class="links centrogrid bordertop">
                     <h4 class="padtop">Ainda não tem uma conta?</h4>
-                    <a href="cadastrar.php" class="formcadastro centro magtop"><Button class="entrar">Criar uma conta</Button></a>
+                    <a href="cadastrar.php" class="loginConta magtop"><Button class="loginConta">Criar uma conta</Button></a>
                 </div>
             </section>
         </div>
