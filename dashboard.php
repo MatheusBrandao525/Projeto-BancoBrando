@@ -68,24 +68,24 @@
 				</div>
 			</div>
 			<div class="cards dispFlex">
-				<div class="card centro">Extrato</div>
-				<div class="card centro">TED</div>
-				<div class="card centro">Deposito</div>
-				<div class="card centro">Pix</div>
+				<a href="extrato.php"><div class="card centro">Extrato</div></a>
+				<a href="transferencia.php"><div class="card centro">TED</div></a>
+				<a href="deposito.php"><div class="card centro">Deposito</div></a>
+				<a href="areaPix.php"><div class="card centro">Pix</div></a>
 			</div>
 
 			<div class="cards dispFlex">
-				<div class="card centro">Cartões</div>
-				<div class="card centro">Empréstimo</div>
-				<div class="card centro">Consorcios</div>
-				<div class="card centro">Financiamento</div>
+				<a href="areaCartao.php"><div class="card centro">Cartões</div></a>
+				<a href="emprestimo.php"><div class="card centro">Empréstimo</div></a>
+				<a href="consorcio.php"><div class="card centro">Consorcios</div></a>
+				<a href="financiamento.php"><div class="card centro">Financiamento</div></a>
 			</div>
 
 			<div class="cards dispFlex">
-				<div class="card centro">Investimentos</div>
-				<div class="card centro">Recarregar celular</div>
-				<div class="card centro">Doar</div>
-				<div class="card centro">Meus benefícios</div>
+				<a href="investimento.php"><div class="card centro">Investimentos</div></a>
+				<a href="recargaCelular.php"><div class="card centro">Recarregar celular</div></a>
+				<a href="doacao.php"><div class="card centro">Doar</div></a>
+				<a href="meuBeneficio.php"><div class="card centro">Meus benefícios</div></a>
 			</div>
 
 	</section>

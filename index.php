@@ -60,7 +60,7 @@
             <div class="inicio centro w100">
                 <h3 class="titulo">Bem-vindo ao Banco Brandao!</h3>
             </div>
-                <form action="" method="post" class="formlogin w100 formstyle centrogrid">
+                <form action="validacoes/validaUser.php" method="post" class="formlogin w100 formstyle centrogrid">
                     <label for="">E-mail</label>
                     <input type="email" required>
                     <label for="">Senha</label>

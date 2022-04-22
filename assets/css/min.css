@@ -550,6 +550,10 @@ nav.menu>ul>a:hover{
     color: #8a8a8a;
 }
 
+.cards>a{
+    margin-top: 2%;
+}
+
 .card:hover{
     background-color: rgb(203, 203, 203);
     color: #212F45; 
