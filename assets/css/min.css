@@ -747,3 +747,22 @@ nav.menu>ul>a:hover{
     width: 900px;
     padding-left: 2rem;
 }
+
+.contatoArt a{
+    color: #adb5bd;
+
+}
+
+.contatoArt a:hover{
+    color: #212F45;
+}
+
+.contatoArt{
+    color: #adb5bd;
+    font-size: 1.40rem;
+    text-align: center;
+}
+
+.homeContato{
+    height: 500px;
+}
