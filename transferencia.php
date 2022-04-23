@@ -55,44 +55,31 @@
 
 		<div class="paiTed w100">
 
-			<div class="dadosProfileTed dispFlex">
-				<div class="imgperfil">
-					<i class="fa fa-user-circle-o" aria-hidden="true"></i>
-				</div>
-				<div class="dados">
-				<h3>Matheus Brandão</h3>
-				<div class="dadosSaldo dispFlex">
-					<h4 class="saldo"><strong>Saldo</strong></h4><h4>R$ 00,00</h4>
-
-				</div>
-				</div>
-			</div>
 
                 <div class="centrogrid ted">
-                    <form action="" method="post" class="formTed centrogrid">
-                        <label for="">Informe de que conta sera transferido o valor</label>
+<form action="validacoes/confirmaTed.php" method="post" class="formTed centrogrid">
+	<label for="">Informe de que conta sera transferido o valor</label>
 
-                        <select name="selectcat" id="" name="selectTipConta">
-							<option value="">Selecione</option>
-                            <option value="">Conta corrente</option>	
-                            <option value="">Conta poupança</option>							
-						</select>
+	<select id="" name="selecttipconta" required>
+		<option name="txtvalues" value="Selecione">Selecione</option>
+		<option name="txtvalues" value="Conta corrente">Conta corrente</option>	
+		<option name="txtvalues" value="Conta poupança">Conta poupança</option>							
+	</select>
+						
+	<label for="">Banco</label>
+		<input type="numbers" name="txtbanco" required>
 
-                        <label for="">Informe o valor que deseja transferir</label>
-                        <input type="number" name="valorTed">
-                        <label for="">Informe o numero da conta de quem rebera a transferencia</label>
-                        <input type="text" name="numeroConta">
+	<label for="">Agência</label>
+		<input type="number" name="txtagencia" required>
 
-                        <label for="">Selecione o tipo de transferencia</label>
-                        <select name="selectcat" id="" name="selectTipoTed">
-                            <option value="">Selecione</option>	
-							<option value="">TED entre contas</option>		
-                            <option value="">TED para outro banco</option>					
-						</select>
-                        <div class="centro">
-                            <button type="submit" class="magtop">Transferir</button>
-                        </div>
-                    </form>
+	<label for="">Informe o valor que deseja transferir</label>
+		<input type="number" name="valorTed" required>
+	<label for="">Informe o numero da conta de quem rebera a transferencia</label>
+		<input type="text" name="numeroconta" required>
+	<div class="centro">
+		<button type="submit" class="magtop">Transferir</button>
+	</div>
+</form>
                     <div class="centro">
                         <a href="dashboard.php"><button type="submit" value="" class="magtop">Voltar</button></a>
                     </div>

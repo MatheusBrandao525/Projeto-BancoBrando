@@ -777,12 +777,16 @@ nav.menu>ul>a:hover{
     height: 500px;
 }
 
+.ted{
+    margin-top: 2rem;
+}
+
 .formTed{
-    height: 400px;
+    height: 550px;
 }
 
 .formTed label{
-    color: #202020;
+    color: #ffffff;
 }
 
 .formTed input,select{
@@ -851,9 +855,9 @@ nav.menu>ul>a:hover{
 }
 
 .dadosProfileTed{
-    margin-top: 1rem;
+    margin-top: 5px;
     padding-left: 2rem;
-    height: 150px;
+    height: 125px;
     background-color: #8a8a8a;
 }
 
@@ -861,3 +865,4 @@ nav.menu>ul>a:hover{
     height: 100vh;
     background-color: #065A60;
 }
+
