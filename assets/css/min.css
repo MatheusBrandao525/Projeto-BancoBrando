@@ -789,6 +789,10 @@ nav.menu>ul>a:hover{
     color: #065A60;
 }
 
+.formTed input{
+    padding-left: 0.70rem;
+}
+
 .formTed input,select,button{
     border-radius: 5px;
     height: 40px;

@@ -72,19 +72,19 @@
                     <form action="" method="post" class="formTed centrogrid">
                         <label for="">Informe de que conta sera transferido o valor</label>
 
-                        <select name="selectcat"id="">
+                        <select name="selectcat" id="" name="selectTipConta">
 							<option value="">Selecione</option>
                             <option value="">Conta corrente</option>	
                             <option value="">Conta poupança</option>							
 						</select>
 
                         <label for="">Informe o valor que deseja transferir</label>
-                        <input type="number">
+                        <input type="number" name="valorTed">
                         <label for="">Informe o numero da conta de quem rebera a transferencia</label>
-                        <input type="text">
+                        <input type="text" name="numeroConta">
 
                         <label for="">Selecione o tipo de transferencia</label>
-                        <select name="selectcat"id="">
+                        <select name="selectcat" id="" name="selectTipoTed">
                             <option value="">Selecione</option>	
 							<option value="">TED entre contas</option>		
                             <option value="">TED para outro banco</option>					
