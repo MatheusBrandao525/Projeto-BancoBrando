@@ -622,7 +622,13 @@ nav.menu>ul>a:hover{
 
 .dados{
     margin-top: 2%;
+
 }
+
+.dadosProfile{
+    width: 100% !important;
+}
+
 .dadosSaldo{
     margin-top: 2rem;
 }
@@ -769,4 +775,85 @@ nav.menu>ul>a:hover{
 
 .homeContato{
     height: 500px;
+}
+
+.formTed{
+    height: 400px;
+}
+
+.formTed label{
+    color: #202020;
+}
+
+.formTed input,select{
+    color: #065A60;
+}
+
+.formTed input,select,button{
+    border-radius: 5px;
+    height: 40px;
+}
+
+.formTed label,input,select,button{
+    font-size: 1.20rem;
+    font-weight: 600;
+    border: none;
+}
+
+
+.formTed>.centro{
+    width: 100%;
+}
+
+.formTed>.centro> button{
+    width: 300px;
+    background-color: #212F45;
+    color: #adb5bd;
+    border: none;
+}
+
+.botaoVlt{
+    margin-left: 10px;
+}
+
+.formTed>.centro> button:hover{
+    background-color: #ededed;
+    color: #212F45;
+
+}
+
+.dadosTed{
+    width: 100% max-content;
+}
+
+.ted>.centro> a>button{
+    width: 300px;
+    background-color: #212F45;
+    color: #adb5bd;
+    border: none;  
+}
+
+.ted>.centro> a>button:hover{
+    background-color: #ededed;
+    color: #212F45;
+}
+
+.paiTed{
+    width: 80%;
+    background-color: #065A60;
+    height: 100%;
+    position: relative;
+    right: 0 !important;
+}
+
+.dadosProfileTed{
+    margin-top: 1rem;
+    padding-left: 2rem;
+    height: 150px;
+    background-color: #8a8a8a;
+}
+
+.alturatelaTed{
+    height: 100vh;
+    background-color: #065A60;
 }
