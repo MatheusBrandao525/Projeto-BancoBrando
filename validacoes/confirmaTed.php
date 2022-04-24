@@ -41,6 +41,8 @@ echo '<br>'; */
     <title>Confirmação</title>
 </head>
 <body class="bodyconfirma">
-
+    <div class="container">
+        
+    </div>
 </body>
 </html>
