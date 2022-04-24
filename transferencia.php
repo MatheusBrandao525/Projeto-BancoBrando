@@ -61,7 +61,7 @@
 	<label for="">Informe de que conta sera transferido o valor</label>
 
 	<select id="" name="selecttipconta" required>
-		<option name="txtvalues" value="Selecione">Selecione</option>
+		<option name="txtvalues" value="">Selecione</option>
 		<option name="txtvalues" value="Conta corrente">Conta corrente</option>	
 		<option name="txtvalues" value="Conta poupança">Conta poupança</option>							
 	</select>

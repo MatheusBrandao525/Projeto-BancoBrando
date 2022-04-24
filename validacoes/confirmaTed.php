@@ -6,7 +6,7 @@
     $agencia = $_POST['txtagencia'];
     $valorTed = $_POST['valorTed'];
     $numeroConta = $_POST['numeroconta'];
-    
+
 /* echo $selectConta;
 echo '<br>';
 echo $cod_banco;
@@ -41,8 +41,44 @@ echo '<br>'; */
     <title>Confirmação</title>
 </head>
 <body class="bodyconfirma">
-    <div class="container">
-        
+    <div class="container centro">
+        <div class="dadosTed">
+            <div class="divConfirma centro saldoConta">
+                <h4>Saldo atual: R$ 900,00</h4>
+            </div>
+
+            <div class="divConfirma centro saldoDepois">
+                <h4>Saldo após a transferência: R$ 500,00</h4>
+            </div>
+
+            <div class="divConfirma centro valorTranferido">
+                <h4>Valor a ser Transferido: R$ <?php echo $valorTed ?>,00</h4>
+            </div>
+
+            <div class="divConfirma centro banco">
+                <h4>Codigo do banco: <?php echo $cod_banco ?></h4>
+            </div>
+
+            <div class="divConfirma centro agenciaConfirma">
+                <h4>Agência: <?php echo $agencia ?></h4>
+            </div>
+
+            <div class="divConfirma centro contaConfirma">
+                <h4>Conta: <?php echo $numeroConta ?></h4>
+            </div>
+
+            <div class="divConfirma centro usuarioConfirma">
+                <h4>Beneficiado: Matheus Felipe</h4>
+            </div>
+
+            <a href="#" class="centro confirmaTed"><button class="botaoConfimaTed">Confirmar</button></a>
+
+            <div class="centro CancelaTed">
+            <a href="../transferencia.php"><button class="botaoCancelaTed">Cancelar</button></a>
+            </div>
+        </div>
+
     </div>
+
 </body>
 </html>
