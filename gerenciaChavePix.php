@@ -56,20 +56,29 @@
 		<div class="paiDeposito centro w100">
 
             <div class="container dadosDeposito">
+                <div class="centrogrid margencima codBancoDeposito">
+                    <h4 class="h4NomeDados">Chave CPF</h4>
+                    <div class="espacocima">
+                        <h4 class="h4Deposito">000.000.000-00</h4>
+                    </div>
+                </div>
 
-            <div class="centro">
-                    <a href=""><button class="magtop botaoDepositoBoleto">Transferir</button></a>
+                <div class="centrogrid margencima agenciaDeposito">
+                    <h4 class="h4NomeDados">Chave Email</h4>
+                    <div class="espacocima">
+                        <h4 class="h4Deposito">emailexemplo@gmail.com</h4>
+                    </div>
+                </div>
+
+                <div class="centrogrid margencima contaDeposito">
+                    <h4 class="h4NomeDados">Chave telefone</h4>
+                    <div class="espacocima">
+                        <h4 class="h4Deposito">(00) 00000-0000</h4>
+                    </div>
                 </div>
 
                 <div class="centro">
-                    <a href=""><button class="magtop botaoDepositoBoleto">Salvos</button></a>
-                </div>
-                <div class="centro">
-                    <a href=""><button class="magtop botaoDepositoBoleto">Meu limite Pix</button></a>
-                </div>
-
-                <div class="centro">
-                    <a href="gerenciaChavePix.php"><button class="magtop botaoDepositoBoleto">Gerenciar minhas chaves Pix</button></a>
+                    <a href=""><button class="magtop botaoDepositoBoleto">Cadastrar chave Pix</button></a>
                 </div>
 
                 <div class="centro">
@@ -88,7 +97,6 @@
          
 </body>
 </html>
-
 
 
 
