@@ -7,16 +7,6 @@
     $valorTed = $_POST['valorTed'];
     $numeroConta = $_POST['numeroconta'];
 
-/* echo $selectConta;
-echo '<br>';
-echo $cod_banco;
-echo '<br>';
-echo $agencia;
-echo '<br>';
-echo $valorTed;
-echo '<br>';
-echo $numeroConta;
-echo '<br>'; */
 
 ?>
 
@@ -81,4 +71,16 @@ echo '<br>'; */
     </div>
 
 </body>
+<script>
+    $(function(cancelar){
+	valorTed = sessionStorage.setItem('banco', '<?=$valorTed?>');
+	codigo_banco = sessionStorage.setItem('agencia', '<?=$cod_banco?>');
+	agencia = sessionStorage.setItem('valor', '<?=$agencia?>');
+	numeroConta = sessionStorage.setItem('conta', '<?=$numeroConta?>');
+
+
+
+    window.location='transferencia.php';
+});
+</script>
 </html>

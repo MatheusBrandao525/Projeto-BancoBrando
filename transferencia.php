@@ -60,22 +60,22 @@
 <form action="validacoes/confirmaTed.php" method="post" class="formTed centrogrid">
 	<label for="">Informe de que conta sera transferido o valor</label>
 
-	<select id="" name="selecttipconta" required>
+	<select id="selecao" name="selecttipconta" required>
 		<option name="txtvalues" value="">Selecione</option>
 		<option name="txtvalues" value="Conta corrente">Conta corrente</option>	
 		<option name="txtvalues" value="Conta poupança">Conta poupança</option>							
 	</select>
 						
 	<label for="">Banco</label>
-		<input type="numbers" name="txtbanco" required>
+		<input type="numbers" id="bancoTed" name="txtbanco" required>
 
 	<label for="">Agência</label>
-		<input type="number" name="txtagencia" required>
+		<input type="number" id="agengiaTed" name="txtagencia" required>
 
 	<label for="">Informe o valor que deseja transferir</label>
-		<input type="number" name="valorTed" required>
+		<input type="number" id="valorTed" name="valorTed" required>
 	<label for="">Informe o numero da conta de quem rebera a transferencia</label>
-		<input type="text" name="numeroconta" required>
+		<input type="text" id="numerocontaTed" name="numeroconta" required>
 	<div class="centro">
 		<button type="submit" class="magtop">Transferir</button>
 	</div>
@@ -89,6 +89,20 @@
 
 	</section>
 </body>
+<script>
+	valorTed = sessionStorage.getItem('banco');
+	codigo_banco = sessionStorage.getItem('agencia');
+	agencia = sessionStorage.getItem('valor');
+	numeroConta = sessionStorage.getItem('conta');
+
+	$('#bancoTed').val(codigo_banco);
+    $('#agenciaTed').val(agencia);
+    $('#valorTed').val(valorTed);
+    $('#numerocontaTed').val(numeroConta);
+
+	console.log(valorTed);
+</script>
+
 </html>
 
 
