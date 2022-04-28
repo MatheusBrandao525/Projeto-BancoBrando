@@ -64,23 +64,30 @@
             <a href="#" class="centro confirmaTed"><button class="botaoConfimaTed">Confirmar</button></a>
 
             <div class="centro CancelaTed">
-            <a href="../transferencia.php"><button class="botaoCancelaTed">Cancelar</button></a>
+            <a href="../transferencia.php"><button id="cancelaTed" class="botaoCancelaTed">Cancelar</button></a>
             </div>
         </div>
 
     </div>
 
 </body>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script>
-    $(function(cancelar){
-	valorTed = sessionStorage.setItem('banco', '<?=$valorTed?>');
-	codigo_banco = sessionStorage.setItem('agencia', '<?=$cod_banco?>');
-	agencia = sessionStorage.setItem('valor', '<?=$agencia?>');
+
+	valorTed = sessionStorage.setItem('valor', '<?=$valorTed?>');
+	codigo_banco = sessionStorage.setItem('banco', '<?=$cod_banco?>');
+	agencia = sessionStorage.setItem('agencia', '<?=$agencia?>');
 	numeroConta = sessionStorage.setItem('conta', '<?=$numeroConta?>');
 
 
 
-    window.location='transferencia.php';
+$('#voltaDash').click(function(){
+	valorTed = sessionStorage.setItem('valor', '<?=$valorTed?>');
+	codigo_banco = sessionStorage.setItem('banco', '<?=$cod_banco?>');
+	agencia = sessionStorage.setItem('agencia', '<?=$agencia?>');
+	numeroConta = sessionStorage.setItem('conta', '<?=$numeroConta?>');
+
+    window.location='../dashboard.php';
 });
 </script>
 </html>

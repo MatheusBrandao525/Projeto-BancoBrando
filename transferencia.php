@@ -8,6 +8,8 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!--link da font awesome-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	
 	<!--link do estilo css-->
     <link rel="stylesheet" href="assets/css/min.css">
 </head>
@@ -70,18 +72,18 @@
 		<input type="numbers" id="bancoTed" name="txtbanco" required>
 
 	<label for="">Agência</label>
-		<input type="number" id="agengiaTed" name="txtagencia" required>
+		<input type="number" id="agenciaTed" name="txtagencia" required>
 
 	<label for="">Informe o valor que deseja transferir</label>
 		<input type="number" id="valorTed" name="valorTed" required>
 	<label for="">Informe o numero da conta de quem rebera a transferencia</label>
 		<input type="text" id="numerocontaTed" name="numeroconta" required>
 	<div class="centro">
-		<button type="submit" class="magtop">Transferir</button>
+		<button type="submit" id="transferrir" class="magtop">Transferir</button>
 	</div>
 </form>
                     <div class="centro">
-                        <a href="dashboard.php"><button type="submit" value="" class="magtop">Voltar</button></a>
+                        <a href="dashboard.php"><button type="submit" id="voltarDash" value="" class="magtop">Voltar</button></a>
                     </div>
                 </div>
          
@@ -89,18 +91,42 @@
 
 	</section>
 </body>
+
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+
 <script>
-	valorTed = sessionStorage.getItem('banco');
-	codigo_banco = sessionStorage.getItem('agencia');
-	agencia = sessionStorage.getItem('valor');
-	numeroConta = sessionStorage.getItem('conta');
+	$(function() {
+		codigo_banco = sessionStorage.getItem('banco');
+		agencia = sessionStorage.getItem('agencia');
+		valorTed = sessionStorage.getItem('valor');
+		numeroConta = sessionStorage.getItem('conta');
+	
+
 
 	$('#bancoTed').val(codigo_banco);
     $('#agenciaTed').val(agencia);
     $('#valorTed').val(valorTed);
     $('#numerocontaTed').val(numeroConta);
 
-	console.log(valorTed);
+
+	});
+
+	$('#voltaDash').click(function(){
+		codigo_banco = sessionStorage.getItem('banco');
+		agencia = sessionStorage.getItem('agencia');
+		valorTed = sessionStorage.getItem('valor');
+		numeroConta = sessionStorage.getItem('conta');
+	
+
+
+	$('#bancoTed').val(codigo_banco);
+    $('#agenciaTed').val(agencia);
+    $('#valorTed').val(valorTed);
+    $('#numerocontaTed').val(numeroConta);
+
+
+	sessionStorage.clear();
+	});
 </script>
 
 </html>
