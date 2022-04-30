@@ -60,34 +60,38 @@
             <div class="divConfirma centro usuarioConfirma">
                 <h4>Beneficiado: Matheus Felipe</h4>
             </div>
-
-            <a href="#" class="centro confirmaTed"><button class="botaoConfimaTed">Confirmar</button></a>
-
+            <div>
+                <a href="#" class="centro confirmaTed"><button class="botaoConfimaTed">Confirmar</button></a>
+            </div>
             <div class="centro CancelaTed">
-            <a href="../transferencia.php"><button id="cancelaTed" class="botaoCancelaTed">Cancelar</button></a>
+                <a href="../transferencia.php"><button id="cancelaTed" class="botaoCancelaTed">Cancelar</button></a>
             </div>
         </div>
 
     </div>
 
 </body>
-<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="../node_modules/jquery/dist/jquery.min.js"></script>
 <script>
+$(function(){
 
-	valorTed = sessionStorage.setItem('valor', '<?=$valorTed?>');
-	codigo_banco = sessionStorage.setItem('banco', '<?=$cod_banco?>');
-	agencia = sessionStorage.setItem('agencia', '<?=$agencia?>');
-	numeroConta = sessionStorage.setItem('conta', '<?=$numeroConta?>');
+        valorTed = sessionStorage.setItem('valor', '<?=$valorTed?>');
+        codigo_banco = sessionStorage.setItem('banco', '<?=$cod_banco?>');
+        agencia = sessionStorage.setItem('agencia', '<?=$agencia?>');
+        numeroConta = sessionStorage.setItem('conta', '<?=$numeroConta?>');
 
 
 
-$('#cancelaTed').click(function(){
-	valorTed = sessionStorage.setItem('valor', '<?=$valorTed?>');
-	codigo_banco = sessionStorage.setItem('banco', '<?=$cod_banco?>');
-	agencia = sessionStorage.setItem('agencia', '<?=$agencia?>');
-	numeroConta = sessionStorage.setItem('conta', '<?=$numeroConta?>');
 
-    window.location='../trasferencia.php';
+
+    $('#cancelaTed').click(function(){
+        valorTed = sessionStorage.setItem('valor', '<?=$valorTed?>');
+        codigo_banco = sessionStorage.setItem('banco', '<?=$cod_banco?>');
+        agencia = sessionStorage.setItem('agencia', '<?=$agencia?>');
+        numeroConta = sessionStorage.setItem('conta', '<?=$numeroConta?>');
+
+        window.location='../trasferencia.php';
+    });
 });
 </script>
 </html>

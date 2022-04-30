@@ -95,7 +95,9 @@
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 
 <script>
+	$(function(){
 
+	
 		codigo_banco = sessionStorage.getItem('banco');
 		agencia = sessionStorage.getItem('agencia');
 		valorTed = sessionStorage.getItem('valor');
@@ -121,6 +123,7 @@
 	sessionStorage.clear();
 	window.location = 'dashboard.php';
 	});
+});
 </script>
 
 </html>
