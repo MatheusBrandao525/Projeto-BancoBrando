@@ -96,41 +96,18 @@
 
 <script>
 	$(function(){
-
-	
 		codigo_banco = sessionStorage.getItem('banco');
 		agencia = sessionStorage.getItem('agencia');
 		valorTed = sessionStorage.getItem('valor');
 		numeroConta = sessionStorage.getItem('conta');
 
-	$('#bancoTed').val(codigo_banco);
-    $('#agenciaTed').val(agencia);
-    $('#valorTed').val(valorTed);
-    $('#numerocontaTed').val(numeroConta);
+    		$('#bancoTed').val(codigo_banco);
+    		$('#agenciaTed').val(agencia);
+    		$('#valorTed').val(valorTed);
+    		$('#numerocontaTed').val(numeroConta);
 
-
-	$('#voltaDash').click(function(){
-		codigo_banco = sessionStorage.getItem('banco');
-		agencia = sessionStorage.getItem('agencia');
-		valorTed = sessionStorage.getItem('valor');
-		numeroConta = sessionStorage.getItem('conta');
-	
-	$('#bancoTed').val(codigo_banco);
-    $('#agenciaTed').val(agencia);
-    $('#valorTed').val(valorTed);
-    $('#numerocontaTed').val(numeroConta);
-
-	sessionStorage.clear();
-	window.location = 'dashboard.php';
+		sessionStorage.clear();
 	});
-});
 </script>
 
 </html>
-
-
-
-
-
-
-
