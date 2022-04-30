@@ -82,10 +82,10 @@
 		<button type="submit" id="transferrir" class="magtop">Transferir</button>
 	</div>
 </form>
-                    <div class="centro">
-                        <a href="dashboard.php"><button type="submit" id="voltarDash" value="" class="magtop">Voltar</button></a>
-                    </div>
-                </div>
+             <div class="centro">
+                <a href="dashboard.php" ><button type="submit" id="voltarDash" value="" class="magtop">Voltar</button></a>
+            </div>
+</div>
          
 
 
@@ -95,21 +95,17 @@
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 
 <script>
-	$(function() {
+
 		codigo_banco = sessionStorage.getItem('banco');
 		agencia = sessionStorage.getItem('agencia');
 		valorTed = sessionStorage.getItem('valor');
 		numeroConta = sessionStorage.getItem('conta');
-	
-
 
 	$('#bancoTed').val(codigo_banco);
     $('#agenciaTed').val(agencia);
     $('#valorTed').val(valorTed);
     $('#numerocontaTed').val(numeroConta);
 
-
-	});
 
 	$('#voltaDash').click(function(){
 		codigo_banco = sessionStorage.getItem('banco');
@@ -117,15 +113,13 @@
 		valorTed = sessionStorage.getItem('valor');
 		numeroConta = sessionStorage.getItem('conta');
 	
-
-
 	$('#bancoTed').val(codigo_banco);
     $('#agenciaTed').val(agencia);
     $('#valorTed').val(valorTed);
     $('#numerocontaTed').val(numeroConta);
 
-
 	sessionStorage.clear();
+	window.location = 'dashboard.php';
 	});
 </script>
 

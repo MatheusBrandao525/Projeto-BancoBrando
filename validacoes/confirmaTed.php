@@ -81,13 +81,13 @@
 
 
 
-$('#voltaDash').click(function(){
+$('#cancelaTed').click(function(){
 	valorTed = sessionStorage.setItem('valor', '<?=$valorTed?>');
 	codigo_banco = sessionStorage.setItem('banco', '<?=$cod_banco?>');
 	agencia = sessionStorage.setItem('agencia', '<?=$agencia?>');
 	numeroConta = sessionStorage.setItem('conta', '<?=$numeroConta?>');
 
-    window.location='../dashboard.php';
+    window.location='../trasferencia.php';
 });
 </script>
 </html>
