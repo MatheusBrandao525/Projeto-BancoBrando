@@ -77,7 +77,7 @@
                 </div>
 
                 <div class="centro">
-                    <a href="dashboard.php"><button class="magtop botaoVoltaDeposito">Voltar</button></a>
+                    <a href="../deposito.php"><button class="botaoVoltaDeposito">Voltar</button></a>
                 </div>
             </div>
 
