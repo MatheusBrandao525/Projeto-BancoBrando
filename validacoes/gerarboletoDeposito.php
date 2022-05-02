@@ -9,7 +9,7 @@
     <!--link da font awesome-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!--link do estilo css-->
-    <link rel="stylesheet" href="assets/css/min.css">
+    <link rel="stylesheet" href="../assets/css/min.css">
 </head>
 <body class="alturatelaTed">
 
@@ -57,28 +57,23 @@
 
             <div class="container dadosDeposito">
                 <div class="centrogrid margencima codBancoDeposito">
-                    <h4 class="h4NomeDados">Codigo do banco</h4>
-                    <div class="espacocima">
-                        <h4 class="h4Deposito">604</h4>
-                    </div>
-                </div>
+                <form action="validacoes/Boleto.php" method="post" class="formGeraBoleto centrogrid">
+					<label for="">Informe em que conta será feito o deposito</label>
 
-                <div class="centrogrid margencima agenciaDeposito">
-                    <h4 class="h4NomeDados">Agência</h4>
-                    <div class="espacocima">
-                        <h4 class="h4Deposito">0001</h4>
-                    </div>
-                </div>
+					<select id="selecao" name="selecttipconta" required>
+						<option name="txtvalues" value="">Selecione</option>
+						<option name="txtvalues" value="cc">Conta corrente</option>
+						<option name="txtvalues" value="cp">Conta poupança</option>
+					</select>
 
-                <div class="centrogrid margencima contaDeposito">
-                    <h4 class="h4NomeDados">Conta</h4>
-                    <div class="espacocima">
-                        <h4 class="h4Deposito">89564-8</h4>
-                    </div>
-                </div>
+					<label for="">Digite o valor que deseja depositar</label>
+					<input type="numbers" id="valorDeposito" name="txtvalordeposito" required>
 
-                <div class="centro">
-                    <a href="validacoes/gerarboletoDeposito.php"><button class="magtop botaoDepositoBoleto">Depositar via boleto</button></a>
+
+					<div class="centro">
+						<button type="submit" id="transferrir" class="magtop">Gerar boleto</button>
+					</div>
+				</form>
                 </div>
 
                 <div class="centro">
@@ -97,10 +92,6 @@
          
 </body>
 </html>
-
-
-
-
 
 
 
