@@ -56,24 +56,33 @@
 		<div class="paiDeposito centro w100">
 
             <div class="container dadosDeposito">
+                <div class="centrogrid margencima codBancoDeposito">
+                <form action="validacoes/confirmaPix.php" method="post" class="formGeraBoleto centrogrid">
+					<label for="">Selecione o tipo de chave Pix</label>
 
-            <div class="centro">
-                    <a href="fazerPix.php"><button class="magtop botaoDepositoBoleto">Transferir</button></a>
+					<select id="selecao" name="selecttipconta" required>
+						<option name="txtvalues" value="">Selecione</option>
+						<option name="txtvalues" value="cc">CPF/CNPJ</option>
+						<option name="txtvalues" value="cp">Telefone</option>
+                        <option name="txtvalues" value="cp">E-mail</option>
+                        <option name="txtvalues" value="cp">Chave aleatoria</option>
+					</select>
+                    
+                    <label for="">Digite a chave</label>
+					<input type="text" id="chavePix" name="txtchavepix" required>
+
+					<label for="">Digite o valor que deseja transferir</label>
+					<input type="numbers" id="valorPix" name="txtvalorpix" required>
+
+
+					<div class="centro">
+						<button type="submit" id="transferriPix" class="magtop">Continuar</button>
+					</div>
+				</form>
                 </div>
 
                 <div class="centro">
-                    <a href=""><button class="magtop botaoDepositoBoleto">Salvos</button></a>
-                </div>
-                <div class="centro">
-                    <a href=""><button class="magtop botaoDepositoBoleto">Meu limite Pix</button></a>
-                </div>
-
-                <div class="centro">
-                    <a href="gerenciaChavePix.php"><button class="magtop botaoDepositoBoleto">Gerenciar minhas chaves Pix</button></a>
-                </div>
-
-                <div class="centro">
-                    <a href="dashboard.php"><button class="magtop botaoVoltaDeposito">Voltar</button></a>
+                    <a href="areaPix.php"><button class="botaoVoltaDeposito">Voltar</button></a>
                 </div>
             </div>
 
@@ -88,7 +97,6 @@
          
 </body>
 </html>
-
 
 
 
