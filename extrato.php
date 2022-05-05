@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -57,7 +58,45 @@
 
 
                 <div class="centrogrid ted">
+				<div class="container">
+                <div class="centrogrid codBancoDeposito">
+                <form action="validacoes/confirmaPix.php" method="post" class="formExtrato centro">
+					<div class="centrogrid extrato">
+					<label for="">Selecione o mês</label>
 
+					<select id="selecao" name="selecttipconta" required>
+						<option name="txtvalues" value="">Selecione</option>
+						<option name="txtvalues" value="cc">Mês 01</option>
+						<option name="txtvalues" value="cp">Mês 02</option>
+                        <option name="txtvalues" value="cp">Mês 03</option>
+                        <option name="txtvalues" value="cp">Mês 04</option>
+					</select>
+					</div>
+					<div class="centrogrid extrato">
+					<label for="">Selecione a conta</label>
+
+					<select id="selecao" name="selecttipconta" required>
+						<option name="txtvalues" value="">Selecione</option>
+						<option name="txtvalues" value="cc">Conta corrente</option>
+						<option name="txtvalues" value="cp">Conta poupança</option>
+					</select>
+					</div>
+
+
+					<div class="centrogrid extrato">
+						<button type="submit" id="transferriPix" class="magtop">Filtar</button>
+					</div>
+				</form>
+                </div>
+
+				<div class="filtrado">
+					
+				</div>
+
+                <div class="centro">
+                    <a href="areaPix.php"><button class="botaoVoltaDeposito">Voltar</button></a>
+                </div>
+            </div>
                 </div>
          
 
